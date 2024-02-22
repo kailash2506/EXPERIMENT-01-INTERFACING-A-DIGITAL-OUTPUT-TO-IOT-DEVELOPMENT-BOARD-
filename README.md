@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 13/02/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME:S.Kailash Kumar 
+###  ROLL NO :212223220041
+###  DEPARTMENT:IT 
 
 
 
@@ -86,10 +86,26 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+#include "main.h"
+#include "stdio.h"
+
+  while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0,RESET);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, SET);
+	  HAL_Delay(1000);
+  }
+
 
 
 
 ## Output  :
+### LED OFF:
+![WhatsApp Image 2024-02-22 at 09 17 25_c45c35f5](https://github.com/vasanthkumarch/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/149034874/2015a427-16a0-4a8a-9751-ee119c65e8ed)
+### LED ON:
+![WhatsApp Image 2024-02-22 at 09 17 24_ee1ac333](https://github.com/vasanthkumarch/EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/149034874/c76ce03f-8766-4978-8f3f-1bc56f767f5b)
+
  
  
  
